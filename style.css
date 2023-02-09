@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Reusable class start*/
+.fix-width{
+    width: 70%;
+    display: flex;
+}
+.btn{
+    background-color: white;
+    color: rgb(0, 95, 172);
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 95, 172);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.common-margin{
+    margin: 80px 0px;
+}
+.margin-btm{
+    margin-bottom: 20px;
+}
+/* Reusable class end*/
+
+
+/* banner class start */
+.banner-bg{
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+}
+.banner{
+    margin: 0 auto;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-right{
+    width: 50%;
+    text-align: right;
+    padding-left: 15%;
+    color: white;
+    margin-top: 25%;
+}
+.banner-right h1{
+    font-size: 50px;
+}
+.banner-right p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* banner class End */
+
+
+/* Failure section start*/
+.failure{
+    margin: 0 auto;
+}
+.failure-left{
+    width: 65%;
+}
+.failure-left img{
+    height: 500px;
+    width: auto;
+}
+.failure-right{
+    width: 35%;
+    margin-top: 10%;
+}
+.failure-sign {
+
+}
+.failure-sign img{
+    height: 13px;
+    margin-right:10px ;
+}
+.failure-sign span{
+    font-weight: 20px;
+}
+.failure-margin{
+    margin-bottom: 5px;
+}
+/* Failure section end*/
+
+
+/* plan section start */
+.plan-section{
+    text-align: center;
+    margin: 100px 0;
+    /* margin: 0 auto; */
+}
+.plans{
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.plan-1, .plan-2, .plan-3, .plan-4{
+    width: 25%;
+} 
+.plan img, .plan h2{
+    margin-bottom: 5px;
+}
+/* plan section end */
+.mindset{
+    background-image:
+    linear-gradient(to right, rgba(0, 95, 172, 80%), rgba(0, 95, 172, 0)),
+    url('images/watch.png');
+    width: 80%;
+    height: 230px;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.mindset h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+/* progress section start */
+.progress{
+    text-align: center;
+}
+.progress-width{
+    width: 70%;
+    margin: 0 auto;
+}
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 65%;
+        border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(0, 95, 172);;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+        border-radius: 15px;
+}
+.web{
+    width: 40%;
+}
+.smoke{
+    width: 100%;
+}
+.js{
+    width: 20%;
+}
+.ecom{
+    width: 10%;
+}
+
+/* progress section end */
+
+
+/* Footer Section Start */
+.footer-section{
+    background-color: #14191D;
+    margin-top: 80px;
+}
+.footer-div{
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.footer-left{
+    width: 70%;
+    color: white;
+}
+.footer-right{
+    width: 30%;
+    color: white;
+}
+.footer-mrgn{
+    margin-bottom: 10px;
+}
+.footer-social-media img{
+    height: 30px;
+    margin-right: 5px;
+}
+.footer-input{
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.footer-btn{
+    background-color: rgb(0, 95, 172);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 95, 172);
+    border-radius: 5px;
+    font-weight: bold;
+}
